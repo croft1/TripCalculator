@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1036112034311",
+    "firebase_url": "https://tripcalculator-43d70.firebaseio.com",
+    "project_id": "tripcalculator-43d70",
+    "storage_bucket": "tripcalculator-43d70.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1036112034311:android:c4b1b7d4bdb52b5a",
+        "android_client_info": {
+          "package_name": "devicroft.tripcalculator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1036112034311-sag56inp3ucgsae7gl1gjfkm3hsotvl5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPkinVLyCF3EOzjkSjg28gk5kFFyL_7Qo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

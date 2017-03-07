@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">TripCalculator</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="banner_ad_unit_id">ca-app-pub-1105785661696607/</string>
+    <string name="banner_ad_app_id">ca-app-pub-1105785661696607~6894502776</string>
+
+
+    <string name="label_distance">Distance</string>
+    <string name="label_petrol_price">Petrol price</string>
+    <string name="label_fuel_efficiency">Fuel Efficiency</string>
+    <string name="label_trip_cost">Trip cost:</string>
+    <string name="label_fuel_consumed">Fuel consumed:</string>
+
+
+
+
+</resources>
