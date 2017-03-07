@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">TripCalculator</string>
+    <string name="app_name">Trip Calculator</string>
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
@@ -13,6 +13,18 @@
     <string name="label_fuel_efficiency">Fuel Efficiency</string>
     <string name="label_trip_cost">Trip cost:</string>
     <string name="label_fuel_consumed">Fuel consumed:</string>
+    
+    <string name="locality_volume_liters">L</string>
+    <string name="locality_volume_gallons">G</string>
+
+    <string name="locality_currency_dollar">$</string>
+    <string name="locality_currency_pound">#</string>
+    <string name="locality_currency_euro">E</string>
+
+    <string name="locality_distance_km">km</string>
+    <string name="locality_distance_miles">miles</string>
+
+    <string name="unavailable_feature">Getting distance by map coming soon!</string>
 
 
 
