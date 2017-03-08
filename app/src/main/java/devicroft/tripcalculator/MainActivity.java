@@ -89,39 +89,6 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    private void showLogoSplash(boolean splashOn){
-        //TODO clean this up
-        if(splashOn){
-            result_cost.setVisibility(View.INVISIBLE);
-            result_consumption.setVisibility(View.INVISIBLE);
-            input_distance.setVisibility(View.INVISIBLE);
-            input_price.setVisibility(View.INVISIBLE);
-            input_efficiency.setVisibility(View.INVISIBLE);
-            label_distance.setVisibility(View.INVISIBLE);
-            label_efficiency.setVisibility(View.INVISIBLE);
-            label_price.setVisibility(View.INVISIBLE);
-            label_cost.setVisibility(View.INVISIBLE);
-            label_consumed.setVisibility(View.INVISIBLE);
-
-            logo.setVisibility(View.VISIBLE);
-        }else{
-            result_cost.setVisibility(View.VISIBLE);
-            result_consumption.setVisibility(View.VISIBLE);
-            input_distance.setVisibility(View.VISIBLE);
-            input_price.setVisibility(View.VISIBLE);
-            input_efficiency.setVisibility(View.VISIBLE);
-            label_distance.setVisibility(View.VISIBLE);
-            label_efficiency.setVisibility(View.VISIBLE);
-            label_price.setVisibility(View.VISIBLE);
-            label_consumed.setVisibility(View.VISIBLE);
-            label_cost.setVisibility(View.VISIBLE);
-
-            logo.setVisibility(View.GONE);
-        }
-    }
-
-
-
     private void initAd(){
         MobileAds.initialize(getApplicationContext(), getString(R.string.banner_ad_app_id));
         AdView adView = (AdView) findViewById(R.id.mainAdView);
@@ -166,7 +133,7 @@ public class MainActivity extends AppCompatActivity {
     };
 
     private void dispatchMapDistanceFetcherIntent() {
-        Toast.makeText(this, getString(R.string.unavailable_feature), Toast.LENGTH_SHORT);
+        Toast.makeText(this, getString(R.string.unavailable_feature), Toast.LENGTH_SHORT).show();
     }
 
     private void setCurrentTrip(){
